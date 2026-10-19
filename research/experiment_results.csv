@@ -1,0 +1,6 @@
+experiment_id,model_version,description,val_tasks_solved_p1,val_tasks_solved_p2,val_pass1_acc,val_pass2_acc,eval_tasks_solved_p1,eval_tasks_solved_p2,eval_pass1_acc,eval_pass2_acc,avg_latency_ms,total_time_sec
+EXP-001,baseline_identity_const,Identity passthrough and constant output baseline,0,0,0.0,0.0,0,0,0.0,0.0,0.14,0.016
+EXP-002,baseline_geometry_d4,"Dihedral group D4 (rotations, reflections, transpose)",1,1,0.005,0.005,0,0,0.0,0.0,0.38,0.045
+EXP-003,solver_v1_palette,Geometry + Bijective/surjective color remapping,2,2,0.01,0.01,0,0,0.0,0.0,0.55,0.065
+EXP-004,solver_v2_objects,"Geometry + Color + Object crop, scale, tiling & gravity",3,3,0.015,0.015,0,0,0.0,0.0,2.93,0.352
+EXP-005,solver_v3_hybrid_pass2,Full Hybrid: Multi-family DSL + Dual-Candidate Diversity Pass@2,3,3,0.015,0.015,0,0,0.0,0.0,2.79,0.335

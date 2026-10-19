@@ -1,0 +1,18 @@
+{
+  "name": "arc-agi-2-reasoning-lab",
+  "version": "1.0.0",
+  "description": "ARC Prize 2026 — ARC-AGI-2 Autonomous Solver, Research Pipeline & Vercel Dashboard",
+  "scripts": {
+    "dashboard:dev": "npm --prefix dashboard run dev",
+    "dashboard:build": "npm --prefix dashboard run build",
+    "dashboard:start": "npm --prefix dashboard run start",
+    "build": "npm --prefix dashboard run build",
+    "test:python": "py -m pytest tests/ -v",
+    "data:verify": "py scripts/verify_data.py",
+    "bench:run": "py scripts/run_experiments.py",
+    "sub:build": "py scripts/build_submission.py",
+    "sub:validate": "py scripts/validate_submission.py submission.json"
+  },
+  "author": "Janeferdinant",
+  "license": "Apache-2.0"
+}
